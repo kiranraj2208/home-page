@@ -1,0 +1,14 @@
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/img/backimage.png) no-repeat center center scroll;
+  background-size: cover;
+  overflow-x: hidden !important;
+  /* overflow-y: scroll; */
+}
+/* img {
+    scrollbar-width: 0;
+    overflow: auto;
+    box-sizing: border-box;
+} */
