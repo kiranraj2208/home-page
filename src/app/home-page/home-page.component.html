@@ -1,5 +1,4 @@
 <div class="Homepage">
-  <!-- <div class="Image"> -->
   <img
     (click)="sportsClicked()"
     (mouseenter)="onLeftButtonHover()"
@@ -10,8 +9,6 @@
     height="100%"
     width="100%"
   />
-  <!-- </div> -->
-  <!-- <div class="Image"> -->
   <img
     (click)="musicClicked()"
     (mouseenter)="onRightButtonHover()"
@@ -27,17 +24,19 @@
 
 <div class="Welcome">WELCOME TO THE UNIVERSE OF SPORTS AND MUSIC</div>
 <div class="Or">
-        <span style="text-decoration: line-through; font-size: 1em;padding-right: 10px;">
-                <span style="font-size: 0.4em; vertical-align: middle; margin: auto;">
-                  {{spaces}}
-                </span>
-              </span>
+  <span
+    style="text-decoration: line-through; font-size: 1em;padding-right: 10px;"
+  >
+    <span style="font-size: 0.4em; vertical-align: middle; margin: auto;">
+      {{ spaces }}
+    </span>
+  </span>
   OR
   <span style="text-decoration: line-through; font-size: 1em;">
-        <span style="font-size: 0.4em; vertical-align: middle; margin: auto;">
-          {{spaces}}
-        </span>
-      </span>
+    <span style="font-size: 0.4em; vertical-align: middle; margin: auto;">
+      {{ spaces }}
+    </span>
+  </span>
 </div>
 <div class="Onground">
   WELCOME TO ONGROUND
