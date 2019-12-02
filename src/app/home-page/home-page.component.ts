@@ -10,6 +10,32 @@ import { ViewEncapsulation } from '@angular/core';
 export class HomePageComponent implements OnInit {
 
   constructor() { }
+  leftHover = 0;
+  rightHover = 0;
+  spaces = '-------------------------';
+
+  onLeftButtonHover() {
+    this.leftHover = 1;
+  }
+
+  offLeftButtonHover() {
+    this.leftHover = 0;
+  }
+  onRightButtonHover() {
+    this.rightHover = 1;
+  }
+
+  offRightButtonHover() {
+    this.rightHover = 0;
+  }
+
+  sportsClicked() {
+    alert("Sports clicked");
+  }
+
+  musicClicked() {
+    alert("Music clicked");
+  }
 
   ngOnInit() {
   }
