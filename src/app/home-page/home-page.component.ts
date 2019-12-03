@@ -12,7 +12,7 @@ export class HomePageComponent implements OnInit {
   constructor() { }
   leftHover = 0;
   rightHover = 0;
-  spaces = '-------------------------';
+  spaces = '                     ';
 
   onLeftButtonHover() {
     this.leftHover = 1;
